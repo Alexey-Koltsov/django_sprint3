@@ -1,6 +1,7 @@
-from blog.models import Category, Post
 from django.shortcuts import get_list_or_404, get_object_or_404, render
 from django.utils import timezone
+
+from blog.models import Category, Post
 
 
 def index(request):
